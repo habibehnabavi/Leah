@@ -83,3 +83,35 @@ body {
         width: 60%; 
         margin: 0 auto; /* مرکز کردن باکس */
       }
+      .box3 {
+        border: 2px solid #0873ff; 
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #f9f9f9; 
+        width: 35%; 
+        margin: 0 auto; /* مرکز کردن باکس */
+      }
+      .box4 {
+        width: 50%;
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    input[type=text] ,input[type=number], input[type=date]
+    {
+        width: 30%;
+        padding: 10px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    textarea 
+    {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }

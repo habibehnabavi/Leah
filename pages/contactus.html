@@ -50,33 +50,48 @@
       >
     </div>
     <br />
-    <div class="box2">
+    <div class="box4">
       <p style="text-align: justify">
-        ما همیشه آماده شنیدن نظرات و پیشنهادات شما هستیم. اگر سوالی دارید یا
-        نیاز به راهنمایی دارید، می‌توانید از طریق راه‌های زیر با ما در تماس
-        باشید:
-        <br />
-        <br />
 
-        تلفن: ۰۹۹۸۱۵۱۱۳۲۷
-        <br />
-
-        ایمیل: habibehnabavi2@gmail.com
-        <br />
-
-        ساعات کاری: روزهای شنبه تا پنجشنبه: ۹ صبح تا ۵ عصر 
-        <br />
-        <br />
-        ما را در اینستاگرام دنبال کنید تا از جدیدترین
-        کتاب‌ها و تخفیف‌ها مطلع شوید: 
-        <br/>
-        اینستاگرام
-        <br />
-        <br />
-
-        ما مشتاقانه منتظر شنیدن از شما هستیم و تمام تلاشمان را می‌کنیم تا بهترین
+        ما مشتاقانه منتظر شنیدن پیام شما هستیم و تمام تلاشمان را می‌کنیم تا بهترین
         خدمات را به شما ارائه دهیم.
+        <br />
+        <br />
+        <fieldset>
+          <legend> پیام </legend>
+          <br>
+        <form action="./thankyoupage.html" method="post">
+        <div>
+        <label for="name">نام و نام خانوادگی:</label>
+        <input type="text" id="name" name="name" required maxlength="15" placeholder="نام و نام خانوادگی خود را وارد کنید ">
+        <p>پدر هستید یا مادر؟
+        <input type="radio" id="father" name="parents" value="پدر">
+        <label for="father">پدر</label>
+        <input type="radio" id="mother" name="parents" value="مادر">
+        <label for="mother">مادر</label>
       </p>
+        <br>
+        <label for="phone">شماره تماس:</label>
+        <input type="number" id="phone" name="phone" required maxlength="15">
+        <br>
+        <br>
+        <label for="birhdaydate">تاریخ تولد فرزندتان:</label>
+        <input type="date" id="birhdaydate" name="birthdaydate" >
+        <br>
+        <br>
+
+        <label for="suggestions"> پیام خود را بنویسید :</label>
+        <br>
+        <textarea id="suggestions" name="suggestions" rows="5"></textarea>
+        <br>
+        <button type="submit">ارسال</button>
+        <button type="reset">پاک کردن</button>
+        <br>
+      </fieldset>
+        </div>
+      </form>
+
     </div>
+
   </body>
 </html>
