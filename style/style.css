@@ -1,11 +1,11 @@
-@font-face {
+/*@font-face {
   font-family: "vazir";
   src: url("../style/fonts/Vazirmatn-VariableFont_wght.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
-}
+}*/
 body {
-  font-family: "vazir", Arial, sans-serif;
+  font-family: "Vazir", Arial, sans-serif;
 }
 
       .header {
