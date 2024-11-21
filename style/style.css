@@ -4,8 +4,10 @@
   font-weight: normal;
   font-style: normal;
 }*/
+@import url('https://fonts.googleapis.com/css?family=Vazirmatn');
+
 body {
-  font-family: "Vazir", Arial, sans-serif;
+  font-family: 'Vazirmatn', Arial, sans-serif;
 }
 
       .header {
