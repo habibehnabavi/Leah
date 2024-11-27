@@ -109,6 +109,7 @@ body {
         border: 1px solid #ccc;
         border-radius: 4px;
         text-align: right;
+        font-family: vazirmatn;
     }
     textarea 
     {
@@ -119,6 +120,10 @@ body {
         border-radius: 4px;
     }
     input::placeholder
+    {
+      font-family: vazirmatn;
+    }
+    option, select, button
     {
       font-family: vazirmatn;
     }
