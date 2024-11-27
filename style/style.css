@@ -101,13 +101,14 @@ body {
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    input[type=text] ,input[type=number], input[type=date]
+    input[type=text] ,input[type=number], input[type=date], datalist, select, input[list]
     {
         width: 30%;
         padding: 10px;
         margin: 5px 0 20px 0;
         border: 1px solid #ccc;
         border-radius: 4px;
+        text-align: right;
     }
     textarea 
     {
@@ -116,4 +117,8 @@ body {
         margin: 5px 0 20px 0;
         border: 1px solid #ccc;
         border-radius: 4px;
+    }
+    input::placeholder
+    {
+      font-family: vazirmatn;
     }

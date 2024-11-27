@@ -52,46 +52,92 @@
     <br />
     <div class="box4">
       <p style="text-align: justify">
-
-        ما مشتاقانه منتظر شنیدن پیام شما هستیم و تمام تلاشمان را می‌کنیم تا بهترین
-        خدمات را به شما ارائه دهیم.
+        ما مشتاقانه منتظر شنیدن پیام شما هستیم و تمام تلاشمان را می‌کنیم تا
+        بهترین خدمات را به شما ارائه دهیم.
         <br />
         <br />
-        <fieldset>
-          <legend> پیام </legend>
-          <br>
-        <form action="./thankyoupage.html" method="post">
-        <div>
-        <label for="name">نام و نام خانوادگی:</label>
-        <input type="text" id="name" name="name" required maxlength="15" placeholder="نام و نام خانوادگی خود را وارد کنید ">
-        <p>پدر هستید یا مادر؟
-        <input type="radio" id="father" name="parents" value="پدر">
-        <label for="father">پدر</label>
-        <input type="radio" id="mother" name="parents" value="مادر">
-        <label for="mother">مادر</label>
       </p>
-        <br>
-        <label for="phone">شماره تماس:</label>
-        <input type="number" id="phone" name="phone" required maxlength="15">
-        <br>
-        <br>
-        <label for="birhdaydate">تاریخ تولد فرزندتان:</label>
-        <input type="date" id="birhdaydate" name="birthdaydate" >
-        <br>
-        <br>
 
-        <label for="suggestions"> پیام خود را بنویسید :</label>
-        <br>
-        <textarea id="suggestions" name="suggestions" rows="5"></textarea>
-        <br>
-        <button type="submit">ارسال</button>
-        <button type="reset">پاک کردن</button>
-        <br>
+      <fieldset>
+        <legend>پیام</legend>
+        <br />
+        <form action="./thankyoupage.html" method="post"  direction="felex">
+          <div>
+            <label for="name">نام و نام خانوادگی:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              maxlength="15"
+              placeholder="نام و نام خانوادگی خود را وارد کنید "
+            />
+            <p>
+              پدر هستید یا مادر؟
+              <input type="radio" id="father" name="parents" value="پدر" />
+              <label for="father">پدر</label>
+              <input type="radio" id="mother" name="parents" value="مادر" />
+              <label for="mother">مادر</label>
+            </p>
+            <br />
+            <label for="phone">شماره تماس:</label>
+            <input
+              type="number"
+              id="phone"
+              name="phone"
+              required
+              maxlength="15"
+            />
+            <br />
+            <br />
+            <label for="birhdaydate">تاریخ تولد فرزندتان:</label>
+            <input type="date" id="birhdaydate" name="birthdaydate" />
+            <br />
+            <br />
+            <label for="age">از چه رده‌ی سنی کتاب تهیه کردید؟</label>
+            <select name="age" id="age">
+              <option value="age0-1">۰ تا ۱ سال</option>
+              <option value="age0-1">۱ تا ۳ سال</option>
+              <option value="age0-1">۳ تا ۵ سال</option>
+              <option value="age0-1">۵ تا ۷ سال</option>
+              <option value="age0-1">۷ تا ۹ سال</option>
+              <option value="age0-1">کتاب‌های والدین</option>
+            </select>
+            <br />
+            <br />
+            <label for="city">شهر محل سکونتتان را انتخاب کنید:</label>
+            <input
+              list="city-option"
+              name="city"
+              id="city"
+             
+            />
+            <datalist id="city-option">
+              <option value="تهران"></option>
+              <option value="اصفهان"></option>
+              <option value="شیراز"></option>
+              <option value="کرمان"></option>
+              <option value="مشهد"></option>
+              <option value="یزد"></option>
+              <option value="تبریز"></option>
+            </datalist>
+            <br />
+            <br />
+            <lable for="shopa">تا اکنون چند کتاب از ما خریدید</lable>
+            <input type="range" id="shopa" min="1" max="50" value="10" oninput="num.value=this.value">
+            <output id="num">10</output>
+            <br>
+            <br>
+            <label for="suggestions"> پیام خود را بنویسید :</label>
+            <br />
+            <textarea id="suggestions" name="suggestions" rows="5"></textarea>
+            <br />
+            <button type="submit">ارسال</button>
+            <button type="reset">پاک کردن</button>
+            <br />
+          </div>
+        </form>
       </fieldset>
-        </div>
-      </form>
-
     </div>
-
   </body>
 </html>
